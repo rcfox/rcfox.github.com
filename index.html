@@ -1,1 +1,20 @@
-Fun stuff here soon.
+---
+layout: index
+title: Index
+---
+<span class="fake_html">        &lt;ul class="posts"></span>
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+	<div class="fake_html">&lt;li></div>
+	<div class="fake_html">    &lt;span class="title"><a href="{{ post.url }}">&lt;a href="{{post.url}}"><span class="link">{{ post.title }}</span>&lt;/a></a>&lt;/span></div>
+	<div class="fake_html">    &lt;span class="date"><span class="escape">{{ post.date | date_to_string }}</span>&lt;/span></div>
+	<span class="fake_html">    &lt;div class="post_content"></span>
+	{{ post.content }}
+	<div class="fake_html">    &lt;/div>
+&lt;/li></div>
+  </li>
+  {% endfor %}
+</ul>
+
+<div class="fake_html">        &lt;/ul></div>
