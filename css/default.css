@@ -1,18 +1,18 @@
-body { font-family: "Crimson Text", serif; }
+body { font-family: "Crimson Text", serif; background-color: #000; color: #ddd5cc; }
 #container { width: 50em; max-width: 100%; }
 
-a { color: #03e; }
+a { color: #07d; }
 a:hover { color: #c00; }
 
-.fake_html { color: #999; white-space: pre-wrap; font-size: 75%; font-family: Inconsolata, monospace; }
-.fake_html .escape { color: #000; font-size: 133%; font-family: "Crimson Text", serif; white-space: normal; }
+.fake_html { color: #444; white-space: pre-wrap; font-size: 75%; font-family: Inconsolata, monospace; }
+.fake_html .escape { color: #ddd5cc; font-size: 133%; font-family: "Crimson Text", serif; white-space: normal; }
 .fake_html .bottom_li { margin-top:-2em; }
-.fake_html a { color: #999; text-decoration: none; }
+.fake_html a { color: #444; text-decoration: none; }
 .fake_html a:hover { color: #c00; }
-.fake_html a .link { color: #03e; text-decoration: underline; font-size: 133%; font-family: "Crimson Text", serif; }
+.fake_html a .link { color: #07d; text-decoration: underline; font-size: 133%; font-family: "Crimson Text", serif; }
 .fake_html a:hover .link { color: #c00; }
 
-.escape a { color: #03e; text-decoration: underline; }
+.escape a { color: #07d; text-decoration: underline; }
 .escape a:hover { color: #c00; }
 
 ul.posts { list-style-type: none; margin-top: 0; margin-bottom: 0; margin-left: 0; padding-left: 0; }
