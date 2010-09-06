@@ -1,4 +1,5 @@
 body { font-family: "Crimson Text", serif; }
+#container { width: 50em; max-width: 100%; }
 
 a { color: #03e; }
 a:hover { color: #c00; }
@@ -15,23 +16,12 @@ a:hover { color: #c00; }
 .escape a:hover { color: #c00; }
 
 ul.posts { list-style-type: none; margin-top: 0; margin-bottom: 0; margin-left: 0; padding-left: 0; }
-ul li { margin-left: 0; padding-left: 0; }
+ul li { margin-left: 1em; padding-left: 0; }
 
 p { margin-bottom: 0; margin-left: 0; }
 p:first-of-type { margin-top: 0; }
 
-.head { margin-left: 2em; }
-.title { margin-left: 4em; }
-.date { margin-left: 4em; }
-.body { margin-left: 2em; }
-.menu { margin-left: 4em; }
-.ul { margin-left: 4em; }
-.li { margin-left: 6em; }
-.titlespan { margin-left: 8em; }
-.datespan { margin-left: 8em; }
-.contentspan { margin-left: 8em; }
-.contentspan2 { margin-left: 4em; }
-.post_content { margin-left: 2em; }
+.indent { margin-left: 1em; }
 
 #comments { display: none; }
 #comments:target { display: block; }

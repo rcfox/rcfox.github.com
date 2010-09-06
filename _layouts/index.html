@@ -5,21 +5,29 @@
 	<link rel="stylesheet" type="text/css" href="/css/default.css" />
   </head>
   <body>
+	<div id="container">
+	  <div class="fake_html">&lt;html></div>
+	  <div class="indent">
+		
+		<div class="fake_html">&lt;head></div>		
+		<div class="indent">
+		  
+		  <div class="fake_html">&lt;title><span class="escape">Ryan Fox - {{ page.title }}</span>&lt;/title></div>
 
-<div class="fake_html">
-&lt;html>
-<span class="head">&lt;head></span>
-<span class="title">&lt;title><span class="escape">Ryan Fox - {{ page.title }}</span>&lt;/title></span>
-<span class="head">&lt;/head></span>
-<span class="body">&lt;body></span>
-<span class="menu"><a href="/">&lt;a href="/"><span class="link">Home</span>&lt;/a></a> <!--<a href="/about.html">&lt;a href="/about.html"><span class="link">About</span>&lt;/a></a>--></span>
-</div>
+		</div>
+		<div class="fake_html">&lt;/head></div>
+		<div class="fake_html">&lt;body></div>
+		<div class="indent">
+		  
+		  <div class="fake_html"><a href="/">&lt;a href="/"><span class="link">Home</span>&lt;/a></a> <!--<a href="/about.html">&lt;a href="/about.html"><span class="link">About</span>&lt;/a></a>--></div>
+		  
+		  {{ content }}
 
-{{ content }}
+		</div>
+		<div class="fake_html">&lt;/body></div>
 
-<div class="fake_html"><span class="body">&lt;/body></span>
-&lt;/html>
-</div>
-
+	  </div>
+	  <div class="fake_html">&lt;/html></div>
+	</div>
   </body>
 </html>
