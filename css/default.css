@@ -4,7 +4,7 @@ a { color: #03e; }
 a:hover { color: #c00; }
 
 .fake_html { color: #999; white-space: pre-wrap; font-size: 75%; font-family: Inconsolata, monospace; }
-.fake_html .escape { color: #000; font-size: 133%; font-family: "Crimson Text", serif; }
+.fake_html .escape { color: #000; font-size: 133%; font-family: "Crimson Text", serif; white-space: normal; }
 .fake_html .bottom_li { margin-top:-2em; }
 .fake_html a { color: #999; text-decoration: none; }
 .fake_html a:hover { color: #c00; }
