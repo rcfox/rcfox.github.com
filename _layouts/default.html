@@ -1,26 +1,29 @@
 <html>
   <head>
 	<title>Ryan Fox - {{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Inconsolata|Crimson+Text" />
 	<link rel="stylesheet" type="text/css" href="/css/default.css" />
   </head>
   <body>
 
 <div class="fake_html">
 &lt;html>
-    &lt;head>
-        &lt;title><span class="escape">Ryan Fox - {{ page.title }}</span>&lt;/title>{%if page.date %}
-        &lt;date><span class="escape">{{ page.date | date_to_string }}</span>&lt;/date>{% endif %}
-    &lt;/head>
-    &lt;body>
-        <a href="/">&lt;a href="/"><span class="link">Home</span>&lt;/a></a> <!--<a href="/about.html">&lt;a href="/about.html"><span class="link">About</span>&lt;/a></a>-->
+<span class="head">&lt;head></span>
+<span class="title">&lt;title><span class="escape">Ryan Fox - {{ page.title }}</span>&lt;/title></span>
+<span class="date">&lt;date><span class="escape">{{ page.date | date_to_string }}</span>&lt;/date></span>
+<span class="head">&lt;/head></span>
+<span class="body">&lt;body></span>
+<span class="menu"><a href="/">&lt;a href="/"><span class="link">Home</span>&lt;/a></a> <!--<a href="/about.html">&lt;a href="/about.html"><span class="link">About</span>&lt;/a></a>--></span>
 </div>
 
-<span class="fake_html">        &lt;div class="post_content"></span>
+<div class="fake_html contentspan2">&lt;div class="post_content">
+<div class="post_content escape">
 {{ content }}
-<div class="fake_html">        &lt;/div>
-        <a href="#comments">&lt;a href="#comments"><span class="link">Comments</span>&lt;/a></a></div>
+</div></div>
+<div class="fake_html contentspan2">&lt;/div>
+<a href="#comments">&lt;a href="#comments"><span class="link">Comments</span>&lt;/a></a></div>
 
-<div class="fake_html">    &lt;/body>
+<div class="fake_html"><span class="body">&lt;/body></span>
 &lt;/html>
 </div>
 

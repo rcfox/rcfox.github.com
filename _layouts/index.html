@@ -1,22 +1,23 @@
 <html>
   <head>
 	<title>Ryan Fox - {{ page.title }}</title>
-	<link rel="stylesheet" type="text/css" href="/css/index.css" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Inconsolata|Crimson+Text" />
+	<link rel="stylesheet" type="text/css" href="/css/default.css" />
   </head>
   <body>
 
 <div class="fake_html">
 &lt;html>
-    &lt;head>
-        &lt;title><span class="escape">Ryan Fox - {{ page.title }}</span>&lt;/title>
-    &lt;/head>
-    &lt;body>
-        <a href="/">&lt;a href="/"><span class="link">Home</span>&lt;/a></a> <!--<a href="/about.html">&lt;a href="/about.html"><span class="link">About</span>&lt;/a></a>-->
+<span class="head">&lt;head></span>
+<span class="title">&lt;title><span class="escape">Ryan Fox - {{ page.title }}</span>&lt;/title></span>
+<span class="head">&lt;/head></span>
+<span class="body">&lt;body></span>
+<span class="menu"><a href="/">&lt;a href="/"><span class="link">Home</span>&lt;/a></a> <!--<a href="/about.html">&lt;a href="/about.html"><span class="link">About</span>&lt;/a></a>--></span>
 </div>
 
 {{ content }}
 
-<div class="fake_html">    &lt;/body>
+<div class="fake_html"><span class="body">&lt;/body></span>
 &lt;/html>
 </div>
 
