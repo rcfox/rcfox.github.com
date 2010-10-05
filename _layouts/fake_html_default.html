@@ -1,0 +1,62 @@
+<html>
+  <head>
+	<title>Ryan Fox - {{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Inconsolata|Crimson+Text" />
+	<link rel="stylesheet" type="text/css" href="/css/fake_html_default.css" />
+  </head>
+  <body>
+
+	<div id="container">
+	  <div class="fake_html">&lt;html></div>
+	  <div class="indent">
+		
+		<div class="fake_html">&lt;head></div>
+		<div class="indent">
+		  
+		  <div class="fake_html">&lt;title><span class="escape">Ryan Fox - {{ page.title }}</span>&lt;/title></div>
+		  <div class="fake_html">&lt;date><span class="escape">{{ page.date | date_to_string }}</span>&lt;/date></div>
+		  
+		</div>		
+		<div class="fake_html">&lt;/head></div>
+		<div class="fake_html">&lt;body></div>		
+		<div class="indent">
+		  
+		  <div class="fake_html"><a href="/">&lt;a href="/"><span class="link">Home</span>&lt;/a></a> <!--<a href="/about.html">&lt;a href="/about.html"><span class="link">About</span>&lt;/a></a>--></div>
+
+		  <div class="fake_html">&lt;div class="post_content"></div>
+		  <div class="post_content indent">
+			{{ content }}
+		  </div>
+		  <div class="fake_html">&lt;/div></div>
+		  <div class="fake_html"><a href="#comments">&lt;a href="#comments"><span class="link">Comments</span>&lt;/a></a></div>
+		</div>
+		<div class="fake_html">&lt;/body></div>
+	  </div>
+	  
+	  <div class="fake_html">&lt;/html></div>
+	</div>
+	
+	<div id="comments">
+	  <div id="disqus_thread"></div>
+	  <script type="text/javascript">
+		/**
+		* var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
+		*/
+		(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = 'http://rcfox.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	  </script>
+	  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rcfox">comments powered by Disqus.</a></noscript>
+	  <script type="text/javascript">
+		var disqus_shortname = 'rcfox';
+		(function () {
+		var s = document.createElement('script'); s.async = true;
+		s.src = 'http://disqus.com/forums/rcfox/count.js';
+		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+	  </script>
+	</div>
+  </body>
+</html>

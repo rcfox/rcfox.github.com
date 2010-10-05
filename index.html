@@ -2,26 +2,39 @@
 layout: index
 title: Index
 ---
-<div class="fake_html">&lt;ul class="posts"></div>
 
-<ul class="posts">
+<div class="post_list">
+  Test
   {% for post in site.posts %}
-  <li>
-	<div class="fake_html li">&lt;li></div>
-	<div class="indent">
+  {% if post.image_resize == null %}
+  {% assign resize = 'auto' %}
+  {% else %}
+  {% assign resize = post.image_resize %}
+  {% endif %}
+  {% if post.image_x == null %}
+  {% assign left = 0 %}
+  {% else %}
+  {% assign left = post.image_x %}
+  {% endif %}
+  {% if post.image_y == null %}
+  {% assign top = 0 %}
+  {% else %}
+  {% assign top = post.image_y %}
+  {% endif %}
+  {% capture right %}{{left | plus:site.image_size}}{% endcapture %}
+  {% capture bottom %}{{top | plus:site.image_size}}{% endcapture %}
+  {% if post.image == null %}
+  {% assign resize = site.image_size %}
+  {% assign image = '/images/no-image-given.png' %}
+  {% else %}
+  {% assign image = post.image %}
+  {% endif %}
 
-	  <div class="fake_html">&lt;span class="title"><a href="{{ post.url }}">&lt;a href="{{post.url}}"><span class="link">{{ post.title }}</span>&lt;/a></a>&lt;/span></div>
-	  <div class="fake_html">&lt;span class="date"><span class="escape">{{ post.date | date_to_string }}</span>&lt;/span></div>
-	  <div class="fake_html">&lt;div class="post_content"></div>
-	  <div class="post_content indent">
-		{{ post.content }}
-	  </div>
-	  <div class="fake_html">&lt;/div></div>
-	  
+  <a href="{{post.url}}">
+	<div class="badge rounded">
+	  <span class="crop"><img src="{{image}}" style="clip:rect({{top}}px {{right}}px {{bottom}}px {{left}}px); top: -{{top}}px; left: -{{left}}px; width: {{resize}}; height: auto;"/></span>
+	  <span class="badge-title">{{post.title}}</span>
 	</div>
-	<div class="fake_html">&lt;/li></div>
-  </li>
+  </a>
   {% endfor %}
-</ul>
-
-<div class="fake_html">&lt;/ul></div>
+</div>

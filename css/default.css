@@ -1,27 +1,20 @@
-body { font-family: "Crimson Text", serif; background-color: #000; color: #ddd5cc; }
-#container { width: 50em; max-width: 100%; }
+---
+---
+.badge { background: #ccc;
+		 padding: 8px; margin: 10px;
+		 max-width: {{site.image_size | times:1}}px;
+		 overflow: hidden;
+		 text-align: center;
+		 float: left;
+		 white-space: nowrap;
+	   }
 
-a { color: #07d; }
-a:hover { color: #c00; }
+.rounded { border-radius: 15px; }
+.badge img { opacity: 0.4; }
+.badge:hover img { opacity: 1.0; }
+.badge:hover { background: #999; }
 
-.fake_html { color: #444; white-space: pre-wrap; font-size: 75%; font-family: Inconsolata, monospace; }
-.fake_html .escape { color: #ddd5cc; font-size: 133%; font-family: "Crimson Text", serif; white-space: normal; }
-.fake_html .bottom_li { margin-top:-2em; }
-.fake_html a { color: #444; text-decoration: none; }
-.fake_html a:hover { color: #c00; }
-.fake_html a .link { color: #07d; text-decoration: underline; font-size: 133%; font-family: "Crimson Text", serif; }
-.fake_html a:hover .link { color: #c00; }
+.crop { overflow: hidden; display: block; height: {{site.image_size}}px; width: {{site.image_size}}px; position: relative;}
+.crop img { position: absolute; }
 
-.escape a { color: #07d; text-decoration: underline; }
-.escape a:hover { color: #c00; }
-
-ul.posts { list-style-type: none; margin-top: 0; margin-bottom: 0; margin-left: 0; padding-left: 0; }
-ul li { margin-left: 1em; padding-left: 0; }
-
-p { margin-bottom: 0; margin-left: 0; }
-p:first-of-type { margin-top: 0; }
-
-.indent { margin-left: 1em; }
-
-#comments { display: none; }
-#comments:target { display: block; }
+.post_list { background: #09f; color: #fff; }

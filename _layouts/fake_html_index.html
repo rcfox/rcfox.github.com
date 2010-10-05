@@ -1,0 +1,33 @@
+<html>
+  <head>
+	<title>Ryan Fox - {{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Inconsolata|Crimson+Text" />
+	<link rel="stylesheet" type="text/css" href="/css/fake_html_default.css" />
+  </head>
+  <body>
+	<div id="container">
+	  <div class="fake_html">&lt;html></div>
+	  <div class="indent">
+		
+		<div class="fake_html">&lt;head></div>		
+		<div class="indent">
+		  
+		  <div class="fake_html">&lt;title><span class="escape">Ryan Fox - {{ page.title }}</span>&lt;/title></div>
+
+		</div>
+		<div class="fake_html">&lt;/head></div>
+		<div class="fake_html">&lt;body></div>
+		<div class="indent">
+		  
+		  <div class="fake_html"><a href="/">&lt;a href="/"><span class="link">Home</span>&lt;/a></a> <!--<a href="/about.html">&lt;a href="/about.html"><span class="link">About</span>&lt;/a></a>--></div>
+		  
+		  {{ content }}
+
+		</div>
+		<div class="fake_html">&lt;/body></div>
+
+	  </div>
+	  <div class="fake_html">&lt;/html></div>
+	</div>
+  </body>
+</html>
