@@ -4,12 +4,43 @@ title: Index
 ---
 <div class="project_list">
   <h1>Projects</h1>
+  {% for post in site.categories.project %}
+  {% if post.image_resize == null %}
+  {% assign resize = 'auto' %}
+  {% else %}
+  {% assign resize = post.image_resize %}
+  {% endif %}
+  {% if post.image_x == null %}
+  {% assign left = 0 %}
+  {% else %}
+  {% assign left = post.image_x %}
+  {% endif %}
+  {% if post.image_y == null %}
+  {% assign top = 0 %}
+  {% else %}
+  {% assign top = post.image_y %}
+  {% endif %}
+  {% capture right %}{{left | plus:site.image_size}}{% endcapture %}
+  {% capture bottom %}{{top | plus:site.image_size}}{% endcapture %}
+  {% if post.image == null %}
+  {% assign resize = site.image_size %}
+  {% assign image = '/images/no-image-given.png' %}
+  {% else %}
+  {% assign image = post.image %}
+  {% endif %}
 
+  <a class="badge-link" href="{{post.url}}">
+	<div class="badge rounded">
+	  <span class="crop"><img src="{{image}}" style="clip:rect({{top}}px {{right}}px {{bottom}}px {{left}}px); top: -{{top}}px; left: -{{left}}px; width: {{resize}}; height: auto;"/></span>
+	  <span class="badge-title">{{post.title}}</span>
+	</div>
+  </a>
+  {% endfor %}
 </div>
 
 <div class="post_list">
   <h1>Blog</h1>
-  {% for post in site.posts %}
+  {% for post in site.categories.blog %}
   {% if post.image_resize == null %}
   {% assign resize = 'auto' %}
   {% else %}
