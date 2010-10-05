@@ -4,6 +4,10 @@ title: Crazy HTML Layout
 image: /images/html-layout.png
 image_y: 10
 image_resize: 480
+categories:
+- blog
+- html
+- github
 ---
 I've decided to try something new for the look of my site. Rather than try to copy everyone else with a sidebar, header, etc., I'm going bare-bones, literally. What you see now is an idealized skeleton of the HTML of this site. I was a little worried that the HTML would obscure the content, but after making it a lighter colour, and shrinking the font size slightly, I think it works pretty well. What do you think?
 

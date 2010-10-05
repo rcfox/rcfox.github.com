@@ -3,6 +3,10 @@ layout: default
 title: Another AI Experiment
 image: /images/ai-world-screen.png
 image_y: 250
+categories:
+- blog
+- ai
+- youtube
 ---
 My last attempt at making an AI aquarium got a little bit too complicated too fast. I did some [neat things](http://www.engineering.uwaterloo.ca/~rcfox/dokuwiki/doku.php?id=rpg_aquarium), but I kind of worked myself into a corner, and it got harder and harder to do new stuff.
 

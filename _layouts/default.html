@@ -3,32 +3,78 @@
 	<title>Ryan Fox - {{ page.title }}</title>
 	<link rel="stylesheet" type="text/css" href="/css/default.css" />
   </head>
-  <body>	
-	<div class="post_content">
-	  {{ content }}
-	</div>
-	
-	<div id="comments">
-	  <div id="disqus_thread"></div>
-	  <script type="text/javascript">
-		/**
-		* var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
-		*/
-		(function() {
-		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		dsq.src = 'http://rcfox.disqus.com/embed.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		})();
-	  </script>
-	  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rcfox">comments powered by Disqus.</a></noscript>
-	  <script type="text/javascript">
-		var disqus_shortname = 'rcfox';
-		(function () {
-		var s = document.createElement('script'); s.async = true;
-		s.src = 'http://disqus.com/forums/rcfox/count.js';
-		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-		}());
-	  </script>
+  <body>
+	<div id="container">
+	  <div id="nav">
+		<a href="/">Home</a>
+	  </div>
+	  <div id="header">
+		{% if page.image_resize == null %}
+		{% assign resize = 'auto' %}
+		{% else %}
+		{% assign resize = page.image_resize %}
+		{% endif %}
+		{% if page.image_x == null %}
+		{% assign left = 0 %}
+		{% else %}
+		{% assign left = page.image_x %}
+		{% endif %}
+		{% if page.image_y == null %}
+		{% assign top = 0 %}
+		{% else %}
+		{% assign top = page.image_y %}
+		{% endif %}
+		{% capture right %}{{left | plus:site.image_size}}{% endcapture %}
+		{% capture bottom %}{{top | plus:site.image_size}}{% endcapture %}
+		{% if page.image == null %}
+		{% assign resize = site.image_size %}
+		{% assign image = '/images/no-image-given.png' %}
+		{% else %}
+		{% assign image = page.image %}
+		{% endif %}
+
+		<span class="crop profile"><a href="{{image}}"><img src="{{image}}" style="clip:rect({{top}}px {{right}}px {{bottom}}px {{left}}px); top: -{{top}}px; left: -{{left}}px; width: {{resize}}; height: auto;"/></a></span>
+		<table>
+		  <tr>
+			<th>Title:</th><td>{{page.title}}</td>
+		  </tr>
+		  <tr>
+			<th>Date:</th><td>{{page.date | date_to_string}}</td>
+		  </tr>
+		  <tr>
+			<th>Tags:</th><td>{{page.categories | join:', '}}</td>
+		  </tr>		  		  
+		</table>
+	  </div>
+
+	  <hr />
+	  
+	  <div id="content">
+		{{ content }}
+	  </div>
+	  
+	  <div id="comments">
+		<div id="disqus_thread"></div>
+		<script type="text/javascript">
+		  /**
+		  * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
+		  */
+		  (function() {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://rcfox.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		  })();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=rcfox">comments powered by Disqus.</a></noscript>
+		<script type="text/javascript">
+		  var disqus_shortname = 'rcfox';
+		  (function () {
+		  var s = document.createElement('script'); s.async = true;
+		  s.src = 'http://disqus.com/forums/rcfox/count.js';
+		  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		  }());
+		</script>
+	  </div>
 	</div>
   </body>
 </html>

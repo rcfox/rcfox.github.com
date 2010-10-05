@@ -1,20 +1,33 @@
 ---
 ---
 .badge { background: #ccc;
-		 padding: 8px; margin: 10px;
-		 max-width: {{site.image_size | times:1}}px;
+		 padding: 8px; margin: 8px;
+		 max-width: {{site.image_size}}px;
 		 overflow: hidden;
 		 text-align: center;
 		 float: left;
 		 white-space: nowrap;
 	   }
 
-.rounded { border-radius: 15px; }
+.rounded { border-radius: 15px; -moz-border-radius: 15px; }
 .badge img { opacity: 0.4; }
 .badge:hover img { opacity: 1.0; }
 .badge:hover { background: #999; }
+a.badge-link { color: #000; text-decoration: none; }
 
 .crop { overflow: hidden; display: block; height: {{site.image_size}}px; width: {{site.image_size}}px; position: relative;}
 .crop img { position: absolute; }
 
-.post_list { background: #09f; color: #fff; }
+hr { margin-top: 1em; }
+
+h1 { margin: 0; margin-left: 10px; margin-top: 3px; }
+
+#container { border: 3px solid #aaa; overflow: auto; display: inline-block; border-radius: 15px; -moz-border-radius: 15px; padding: 10px;}
+#content { clear: both; }
+#header { margin: 10px; }
+#header th { text-align: right; }
+#nav { float: right; margin-right: -10px; margin-top: -10px; border-left: 3px solid #aaa; border-bottom: 3px solid #aaa;}
+.profile { float: left; border-radius: 5px; margin-right: 10px; width: 80px; height: 80px; -moz-border-radius: 15px; }
+.post_list { clear: both; }
+
+object { margin-bottom: 10px; }

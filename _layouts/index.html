@@ -19,9 +19,27 @@
   </head>
   <body onload="truncate()">
 	<div id="container">
+	  <div id="nav">
+		<a href="/">Home</a>
+	  </div>
+	  <div id="header">
+		<img class="profile" src="http://www.gravatar.com/avatar/fcc79759f6398caee5df36cde61b36b7?s=80"/>
+		<table>
+		  <tr>
+			<th>Name:</th><td>Ryan Fox</td>
+		  </tr>
+		  <tr>
+			<th>Alias:</th><td>rcfox, <a href="http://twitter.com/RyanFox">@RyanFox</a></td>
+		  </tr>
+		  <tr>
+			<th>Email:</th><td><a href="mailto:ryan@rcfox.ca">ryan@rcfox.ca</a></td>
+		  </tr>
+		</table>
+	  </div>
 
-	  {{ content }}
-
+	  <div id="content">
+		{{ content }}
+	  </div>
 	</div>
   </body>
 </html>

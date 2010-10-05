@@ -2,9 +2,13 @@
 layout: index
 title: Index
 ---
+<div class="project_list">
+  <h1>Projects</h1>
+
+</div>
 
 <div class="post_list">
-  Test
+  <h1>Blog</h1>
   {% for post in site.posts %}
   {% if post.image_resize == null %}
   {% assign resize = 'auto' %}
@@ -30,8 +34,9 @@ title: Index
   {% assign image = post.image %}
   {% endif %}
 
-  <a href="{{post.url}}">
+  <a class="badge-link" href="{{post.url}}">
 	<div class="badge rounded">
+	  <span class="badge-date">{{post.date | date_to_string}}</span>
 	  <span class="crop"><img src="{{image}}" style="clip:rect({{top}}px {{right}}px {{bottom}}px {{left}}px); top: -{{top}}px; left: -{{left}}px; width: {{resize}}; height: auto;"/></span>
 	  <span class="badge-title">{{post.title}}</span>
 	</div>
