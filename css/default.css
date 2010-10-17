@@ -36,3 +36,5 @@ object { margin-bottom: 10px; }
 #comments:target { display: block; clear: both; }
 
 pre code { border: 2px dashed #aaa; display: block; padding: 10px; }
+
+.hidden { display: none; }
