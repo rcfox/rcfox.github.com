@@ -34,3 +34,5 @@ object { margin-bottom: 10px; }
 
 #comments { display: none; }
 #comments:target { display: block; }
+
+code { border: 2px dashed #aaa; display: block; padding: 10px; }
