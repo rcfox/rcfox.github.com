@@ -1,6 +1,6 @@
 ---
 layout: default
-title: devkitARM Installer
+title: devkitARM Installer for Linux/OSX
 image: /images/nds.jpg
 image_resize: 150
 categories:

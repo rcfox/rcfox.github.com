@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Launchpad Development
+title: Launchpad Development Tools for Linux
 image: /images/launchpad.png
 image_x: 20
 categories:
@@ -9,7 +9,7 @@ categories:
 - launchpad
 ---
 
-# Linux Development Tools for the MSP430 LaunchPad #
+# Launchpad Development Tools for Linux #
 
 Texas Instruments has released the [LaunchPad](http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_(MSP-EXP430G2),
 a new open-source development board for the value line of the MSP430. The chips aren't very powerful, but at

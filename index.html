@@ -31,7 +31,7 @@ title: Index
 
   <a class="badge-link" href="{{post.url}}">
 	<div class="badge rounded">
-	  <span class="crop"><img src="{{image}}" style="clip:rect({{top}}px {{right}}px {{bottom}}px {{left}}px); top: -{{top}}px; left: -{{left}}px; width: {{resize}}; height: auto;"/></span>
+	  <span class="crop"><img src="{{image}}" style="clip:rect({{top}}px {{right}}px {{bottom}}px {{left}}px); top: -{{top}}px; left: -{{left}}px; width: {{resize}}; height: auto;" title="{{post.title}}"/></span>
 	  <span class="badge-title">{{post.title}}</span>
 	</div>
   </a>
@@ -68,7 +68,7 @@ title: Index
   <a class="badge-link" href="{{post.url}}">
 	<div class="badge rounded">
 	  <span class="badge-date">{{post.date | date_to_string}}</span>
-	  <span class="crop"><img src="{{image}}" style="clip:rect({{top}}px {{right}}px {{bottom}}px {{left}}px); top: -{{top}}px; left: -{{left}}px; width: {{resize}}; height: auto;"/></span>
+	  <span class="crop"><img src="{{image}}" style="clip:rect({{top}}px {{right}}px {{bottom}}px {{left}}px); top: -{{top}}px; left: -{{left}}px; width: {{resize}}; height: auto;" title="{{post.title}}"/></span>
 	  <span class="badge-title">{{post.title}}</span>
 	</div>
   </a>

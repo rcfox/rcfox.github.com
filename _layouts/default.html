@@ -39,11 +39,15 @@
 			<th>Title:</th><td>{{page.title}}</td>
 		  </tr>
 		  <tr>
-			<th>Date:</th><td>{{page.date | date_to_string}}</td>
+			<th>Tags:</th><td>{{page.categories | join:', '}}</td>
 		  </tr>
 		  <tr>
-			<th>Tags:</th><td>{{page.categories | join:', '}}</td>
-		  </tr>		  		  
+ 			{% if page.categories contains 'blog' %}
+			<th>Date:</th><td>{{page.date | date_to_string}}</td>
+			{% else %}			
+			<td>&nbsp;</td>
+			{% endif %}
+		  </tr>
 		</table>
 	  </div>
 
