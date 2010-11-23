@@ -2,6 +2,7 @@
   <head>
 	<title>Ryan Fox - {{ page.title }}</title>
 	<link rel="stylesheet" type="text/css" href="/css/default.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 	<script type="text/javascript">
 	function truncate()
 	{
@@ -18,28 +19,17 @@
     </script>
   </head>
   <body onload="truncate()">
-	<div id="container" class="vcard">
+	<div id="container">
 	  <div id="nav">
-		<a class="url" href="/" rel="home">Home</a>
+		<a href="/" rel="home">Home</a>
 	  </div>
 	  <div id="header">
-		<img class="profile photo" src="http://www.gravatar.com/avatar/fcc79759f6398caee5df36cde61b36b7?s=80"/>
-		<table>
-		  <tr>
-			<th>Name:</th><td class="fn">Ryan Fox</td>
-		  </tr>
-		  <tr>
-			<th>Alias:</th><td><span class="nickname">rcfox</span>, <a class="url" href="http://twitter.com/RyanFox">@RyanFox</a></td>
-		  </tr>
-		  <tr>
-			<th>Email:</th><td><a class="email" href="mailto:ryan@rcfox.ca">ryan@rcfox.ca</a></td>
-		  </tr>
-		</table>
-		<div class="hidden adr">
-		  <span class="locality">Waterloo</span>
-		  <span class="region">Ontario</span>
-		  <span class="country">Canada</span>
-		</div>
+		<img class="profile" src="http://www.gravatar.com/avatar/fcc79759f6398caee5df36cde61b36b7?s=80"/>
+		<ul class="menu">
+		  <li><b>Ryan Fox</b></li>
+		  <li><a href="about">About</a></li>
+		  <li><a href="resume">Resume</a></li>
+		</ul>
 	  </div>
 
 	  <div id="content">
