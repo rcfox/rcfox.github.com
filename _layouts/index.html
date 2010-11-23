@@ -3,19 +3,19 @@
 	<title>Ryan Fox - {{ page.title }}</title>
 	<link rel="stylesheet" type="text/css" href="/css/default.css" />
 	<script type="text/javascript">
-	  function truncate()
-	  {
-	  els = document.getElementsByClassName('badge-title');
-	  for(i = 0; i < els.length; ++i)
-					 {
-					 for(j = els(i).textContent.length; j > 0; j -= 3)
-		{		
-		if(els(i).offsetWidth <= {{site.image_size}}) break;
-								 els(i).textContent = els(i).textContent.substr(0,j)+"...";
-								 }
-								 }
-								 }
-								 </script>
+	function truncate()
+	{
+		els = document.getElementsByClassName('badge-title');
+		for(i = 0; i < els.length; ++i)
+		{
+			for(j = els(i).textContent.length; j > 0; j -= 3)
+			{		
+				if(els(i).offsetWidth <= {{site.image_size}}) break;
+				els(i).textContent = els(i).textContent.substr(0,j)+"...";
+			}
+		}
+	}
+    </script>
   </head>
   <body onload="truncate()">
 	<div id="container" class="vcard">
