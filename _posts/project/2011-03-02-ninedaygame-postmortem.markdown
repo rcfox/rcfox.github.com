@@ -4,7 +4,7 @@ title: NineDayGame - Postmortem
 image: /images/nineday_icon.png
 image_resize: 150
 categories:
-- blog
+- project
 - NineDayGame
 - roguelike
 - github

@@ -4,7 +4,7 @@ title: Wikipedia Category Intersections
 image: /images/venn.png
 image_resize: 150
 categories:
-- blog
+- project
 - wikipedia
 ---
 # Wikipedia Category Intersections #
