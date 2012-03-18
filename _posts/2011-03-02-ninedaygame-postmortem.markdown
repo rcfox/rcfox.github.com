@@ -1,8 +1,6 @@
 ---
 layout: post
 title: NineDayGame - Postmortem
-image: /images/nineday_icon.png
-image_resize: 150
 categories:
 - project
 tags:

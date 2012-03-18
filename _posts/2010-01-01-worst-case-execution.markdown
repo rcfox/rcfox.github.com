@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Worst-Case Execution Time Analysis in Real-Time Systems
-image: /images/wcet.png
-image_resize: 150
 categories:
 - presentation
 tags:

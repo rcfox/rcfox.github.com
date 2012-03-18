@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Launchpad Development Tools for Linux
-image: /images/launchpad.png
-image_x: 20
 categories:
 - tutorial
 tags:

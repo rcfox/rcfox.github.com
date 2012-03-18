@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Wikipedia Category Intersections
-image: /images/venn.png
-image_resize: 150
 categories:
 - project
 tags:

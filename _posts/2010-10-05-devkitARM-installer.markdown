@@ -1,8 +1,6 @@
 ---
 layout: post
 title: devkitARM Installer for Linux/OSX
-image: /images/nds.jpg
-image_resize: 150
 categories:
 - project
 tags:
