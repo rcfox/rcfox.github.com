@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Wikipedia Category Intersections
-categories:
-- project
+category: project
 tags:
 - wikipedia
 ---

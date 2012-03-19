@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Launchpad Development Tools for Linux
-categories:
-- tutorial
+category: tutorial
 tags:
 - embedded-systems
 ---

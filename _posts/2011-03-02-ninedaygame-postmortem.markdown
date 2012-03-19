@@ -1,8 +1,7 @@
 ---
 layout: post
 title: NineDayGame - Postmortem
-categories:
-- project
+category: project
 tags:
 - roguelike
 - games

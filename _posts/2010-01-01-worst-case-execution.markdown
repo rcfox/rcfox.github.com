@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Worst-Case Execution Time Analysis in Real-Time Systems
-categories:
-- presentation
+category: presentation
 tags:
 - embedded-systems
 ---

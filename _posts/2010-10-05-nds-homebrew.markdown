@@ -1,8 +1,7 @@
 ---
 layout: post
 title: NDS Homebrew
-categories:
-- project
+category: project
 tags:
 - nintendo-ds
 - games

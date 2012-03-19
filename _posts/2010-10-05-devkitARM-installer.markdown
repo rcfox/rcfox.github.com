@@ -1,8 +1,7 @@
 ---
 layout: post
 title: devkitARM Installer for Linux/OSX
-categories:
-- project
+category: project
 tags:
 - nintendo-ds
 - perl

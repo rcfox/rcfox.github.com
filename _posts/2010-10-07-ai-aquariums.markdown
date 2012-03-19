@@ -1,8 +1,7 @@
 ---
 layout: post
 title: AI Aquariums
-categories:
-- project
+category: project
 tags:
 - ai
 ---
