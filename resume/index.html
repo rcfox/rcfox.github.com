@@ -20,6 +20,7 @@
 	<div class="content">
 	  <div id="skills">
 		<h1>Summary of Skills</h1>
+		<div class="note">(Click links in this section to filter the next two sections.)</div>
 		<ul>
 		  <li>Programming Languages:
 			<ul>
@@ -28,15 +29,15 @@
 				<a href="javascript:filter('lang_c')">C</a>
 			  </li>
 			  <li>Secondary:
-				<a href="javascript:filter('lang_scheme')">Guile Scheme</a>,
 				<a href="javascript:filter('lang_cpp')">C++</a>,
+				<a href="javascript:filter('lang_scheme')">Guile Scheme</a>,
 				<a href="javascript:filter('lang_java')">Java</a>
 			  </li>
 			</ul>
 		  </li>
 		  <li>Circuit Design:
 			<ul>
-			  <li>Register Transfer- and Transistor-Level design of digital circuits, using <a href="javascript:filter('lang_vhdl')">VHDL</a> and <a href="javascript:filter('cadence')">Cadence</a></li>
+			  <li>Register Transfer- and Transistor-Level design of digital circuits, using VHDL and <a href="javascript:filter('cadence')">Cadence</a></li>
 			  <li>Analog filters and amplifiers</li>
 			  <li>Schematic capture and PCB layout, using Mentor Graphics' <a href="javascript:filter('mentor')">Design Architect and Board Station</a></li>
 			</ul>
@@ -47,17 +48,52 @@
 			<a href="javascript:filter('windows')">Windows</a>,
 			<a href="javascript:filter('qnx')">QNX</a>
 		  </li>
+		  <li>Editor: Emacs</li>
 		</ul>
 	  </div>
 	  <div id="projects">
 		<h1>Projects</h1>
+		<div class="ai aquarium lang_c lang_perl lang_scheme">
+		  <h2>AI Aquarium</h2>
+		  <h3>2010 - present</h3>
+		  <ul>
+			<li>The idea behind this project is to create a world, drop in some artificially intelligent agents, and then watch them build a town, start an economy, and raid dungeons.</li>
+			<li>Smaller experiments in world exploration, gathering and large battles were conducted in Perl.
+			  <ul>
+				<li>Source: <a href="https://github.com/rcfox/World-Exploration-AI">https://github.com/rcfox/World-Exploration-AI</a></li>
+				<li>Demo: <a href="http://rcfox.ca/ai-aquariums/">http://rcfox.ca/ai-aquariums/</a></li>
+			  </ul>
+			</li>			
+			<li>A larger experiment involving collecting things to build complex items was started in C, but switched to Guile Scheme.
+			  <ul>
+				<li>Source: <a href="https://github.com/rcfox/AI-Aquarium-Mk-II">https://github.com/rcfox/AI-Aquarium-Mk-II</a></li>
+				<li>Demo: <a href="http://www.youtube.com/watch?v=Z1WlRlFeCuA">http://www.youtube.com/watch?v=Z1WlRlFeCuA</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		</div>
+		<div class="ninedaygame lang_cpp linux">
+		  <h2>NineDayGame</h2>
+		  <h3>February 2011</h3>
+		  <ul>
+			<li>Nine-day joint effort between me and my friend Alex Williams.</li>
+			<li>To allow concurrent development, game was split into two parts:
+			  <ul>
+				<li>Alex worked on the 3D graphics side, using OpenGL.</li>
+				<li>I worked on the backend, defining the mechanics of the game.</li>
+			  </ul>
+			</li>
+			<li>Source: <a href="https://github.com/NineDayGame/NineDayGame">https://github.com/NineDayGame/NineDayGame</a></li>
+			<li>Demo: <a href="http://www.youtube.com/playlist?list=PL514EB1545CFC7371">http://www.youtube.com/playlist?list=PL514EB1545CFC7371</a></li>
+		  </ul>
+		</div>
 		<div class="fydp lang_c linux">
 		  <h2>Application-Specific Processor Instruction Set Extensions</h2>
 		  <h3>Fourth-Year Design Project</h3>
 		  <ul>
 			<li>Automatic system for finding processor instruction set optimizations, tailored to a specific application.</li>
 			<li>Targeted the ARM7 architecture.</li>
-			<li>In the case of an edge-detection program, our system found a new instruction that increased performance by 10% in simulations.</li>
+			<li>In our example case of an edge-detection program, our system found a new instruction that increased performance by 10% in simulations.</li>
 		  </ul>
 		</div>
 		<div class="adder cadence">
@@ -121,14 +157,6 @@
 			<li>Improved the usability of the wiki by streamlining the content and setting standards for displaying it.</li>
 		  </ul>
 		</div>
-		<div class="examples">
-		  <h2>Examples</h2>
-		  Examples and demos of some of my projects are available online:
-		  <ul>
-			<li>Demos: <a href="http://rcfox.ca/">http://rcfox.ca</a></li>
-			<li>Code: <a href="http://github.com/rcfox">http://github.com/rcfox</a></li>
-		  </ul>
-		</div>
 	  </div>
 	  <div id="work">
 		<h1>Work Experience</h1>		
@@ -137,7 +165,7 @@
 		  <h3>June 2011 - present</h3>
 		  <ul>
 			<li>Optimized hardware audio codec drivers for power consumption and audio quality.</li>
-			<li>Ported the hardware audio codec drivers from the BlackBerry 7 OS to the new BlackBerry 10 OS (QNX).</li>
+			<li>Ported the codec drivers from the BlackBerry 7 OS to the new BlackBerry 10 OS (QNX).</li>
 			<li>Created analysis tools to find potential memory optimizations in a memory-constrained DSP, enabling advanced features which had been previously deemed impossible to fit into memory.</li>			
 		  </ul>
 		</div>
