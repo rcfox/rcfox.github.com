@@ -132,10 +132,31 @@ function gplus_user_activity (response) {
     next_source();
 }
 
+function hackernews_user_activity (response) {
+    for(var i = 0; i < response.results.length; ++i) {
+        var item = response.results[i].item;
+        console.log(item);
+        var msg = { time : item.create_ts,
+                    text : "",
+                    source : "hackernews",
+                    url : "http://news.ycombinator.com/item?id=" + item.id };
+        if(item.type == "submission") {
+            msg.text += '<a href="'+item.url+'">'+item.title+'</a>';
+        }
+        if(item.type == "comment") {
+            msg.text += '<p>'+item.text+'</p>';
+            msg.text += '<p class="response">In response to: <a href="http://news.ycombinator.com/item?id='+item.discussion.id+'">'+item.discussion.title+'</a></p>';
+        }
+        messages.push(msg);
+    }
+    next_source();
+}
+
 var sources = [
     "https://api.github.com/users/rcfox/events?callback=github_user_activity",
     "https://www.googleapis.com/plus/v1/people/113431013843451438802/activities/public?callback=gplus_user_activity&key=AIzaSyCYJsoof7xtrehdw-mBdC-Afr8IMPNyceI",
-    "http://api.twitter.com/1/statuses/user_timeline.json?screen_name=ryanfox&exclude_replies=true&count=100&include_rts=true&callback=twitter_user_activity"
+    "http://api.twitter.com/1/statuses/user_timeline.json?screen_name=ryanfox&exclude_replies=true&count=100&include_rts=true&callback=twitter_user_activity",
+    "http://api.thriftdb.com/api.hnsearch.com/items/_search?pretty_print=true&filter[fields][username]=rcfox&sortby=create_ts%20desc&callback=hackernews_user_activity&limit=30",
 ];
 
 var messages = [];

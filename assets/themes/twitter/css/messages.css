@@ -45,3 +45,15 @@ div.gplus .timebox img {
     margin-right: 4px;
     margin-left: 3px;
 }
+div.hackernews .timebox {
+    line-height: 16px;
+}
+div.hackernews .timebox img {
+    margin-right: 4px;
+    margin-left: 3px;
+}
+
+div.hackernews p.response {
+    font-size: 75%;
+    margin-bottom: 0;
+}
