@@ -135,7 +135,6 @@ function gplus_user_activity (response) {
 function hackernews_user_activity (response) {
     for(var i = 0; i < response.results.length; ++i) {
         var item = response.results[i].item;
-        console.log(item);
         var msg = { time : item.create_ts,
                     text : "",
                     source : "hackernews",
@@ -176,7 +175,12 @@ function next_source() {
         for(var i = 0; i < messages.length; ++i) {
             if(!messages[i]) { continue; }
 
-            var time = Date.parse(messages[i].time.replace("T"," ").replace(/\..*/,"").replace("Z","")).toString("MMMM d, yyyy - HH:mm");
+            // Fix date.js' crappy handling of timezones and ISO 8601 dates. "You had *one* job..."
+            var date = Date.parse(messages[i].time.replace("T"," ").replace(/\..*/,"").replace("Z",""));
+            var timems = date.getTime();
+            var timezone = date.getTimezoneOffset();
+            var time = new Date(timems - timezone * 60000).toString("MMMM d, yyyy - HH:mm");
+
             var div = document.createElement("div");
             div.className = "message";
             div.className += " " + messages[i].source;
