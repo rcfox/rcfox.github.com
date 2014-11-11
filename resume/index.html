@@ -14,7 +14,11 @@
 	<div class="header">
 	  <div class="personal_info">
 		<h1>Ryan Fox</h1>
-		<h3><a href="mailto:ryan@rcfox.ca">ryan@rcfox.ca</a></h3>
+		<ul>
+          <li><a href="mailto:ryan@rcfox.ca">ryan@rcfox.ca</a></li>
+          <li><a href="http://rcfox.ca">http://rcfox.ca</a></li>
+          <li><a href="https://github.com/rcfox">https://github.com/rcfox</a></li>
+        </ul>
 	  </div>
 	</div>
 	<div class="content">
@@ -25,24 +29,19 @@
 		  <li>Programming Languages:
 			<ul>
 			  <li>Primary:
-				<a href="javascript:filter('lang_perl')">Perl</a>,
+				<a href="javascript:filter('lang_python')">Python</a>
+                <a href="javascript:filter('lang_js')">Javascript</a>
 				<a href="javascript:filter('lang_c')">C</a>
 			  </li>
 			  <li>Secondary:
+                <a href="javascript:filter('lang_perl')">Perl</a>,
 				<a href="javascript:filter('lang_cpp')">C++</a>,
 				<a href="javascript:filter('lang_scheme')">Guile Scheme</a>,
 				<a href="javascript:filter('lang_java')">Java</a>
 			  </li>
 			</ul>
 		  </li>
-		  <li>Circuit Design:
-			<ul>
-			  <li>Register Transfer- and Transistor-Level design of digital circuits, using VHDL and <a href="javascript:filter('cadence')">Cadence</a></li>
-			  <li>Analog filters and amplifiers</li>
-			  <li>Schematic capture and PCB layout, using Mentor Graphics' <a href="javascript:filter('mentor')">Design Architect and Board Station</a></li>
-			</ul>
-		  </li>
-		  <li>Version Control Systems: Subversion, Git, Perforce</li>
+		  <li>Version Control Systems: Git, Subversion, Perforce</li>
 		  <li>Operating Systems:
 			<a href="javascript:filter('linux')">Linux</a>,
 			<a href="javascript:filter('windows')">Windows</a>,
@@ -53,9 +52,29 @@
 	  </div>
 	  <div id="projects">
 		<h1>Projects</h1>
+        <div class="lang_js">
+          <h2>Power Metal Ranker</h2>
+          <h3>2014 - present</h3>
+          <ul>
+            <li>Two songs are presented, the user selects which they like better. The results are stored in order, and two more results are shown.</li>
+            <li>As the list grows, songs from within the list are strategically chosen to minimize the number of comparisons in order to place new songs in their correct positions.</li>
+            <li>New songs to insert are drawn from submissions to the <a href="http://www.reddit.com/r/powermetal">r/PowerMetal</a> subreddit.</li>
+            <li>Source: <a href="https://github.com/rcfox/Power-Metal-Ranker">https://github.com/rcfox/Power-Metal-Ranker</a></li>
+            <li>Demo: <a href="http://rcfox.ca/Power-Metal-Ranker/">http://rcfox.ca/Power-Metal-Ranker/</a></li>
+          </ul>
+        </div>
+        <div class="upverter lang_c">
+          <h2>ngspice / ADMS</h2>
+          <h3>2012 - present</h3>
+          <ul>
+            <li>Open-source tool for transpiling analog circuit designs written in Verilog-A into C code.</li>
+            <li>The C code is compiled and linked into ngspice, which can then simulate the circuit as if it were a native component.</a>
+            <li>Source: <a href="https://github.com/upverter/ADMS">https://github.com/upverter/ADMS</a></li>
+          </ul>
+        </div>
 		<div class="ai aquarium lang_c lang_perl lang_scheme">
 		  <h2>AI Aquarium</h2>
-		  <h3>2010 - present</h3>
+		  <h3>2010 - 2012</h3>
 		  <ul>
 			<li>The idea behind this project is to create a world, drop in some artificially intelligent agents, and then watch them build a town, start an economy, and raid dungeons.</li>
 			<li>Smaller experiments in world exploration, gathering and large battles were conducted in Perl.
@@ -63,7 +82,7 @@
 				<li>Source: <a href="https://github.com/rcfox/World-Exploration-AI">https://github.com/rcfox/World-Exploration-AI</a></li>
 				<li>Demo: <a href="http://rcfox.ca/ai-aquariums/">http://rcfox.ca/ai-aquariums/</a></li>
 			  </ul>
-			</li>			
+			</li>
 			<li>A larger experiment involving collecting things to build complex items was started in C, but switched to Guile Scheme.
 			  <ul>
 				<li>Source: <a href="https://github.com/rcfox/AI-Aquarium-Mk-II">https://github.com/rcfox/AI-Aquarium-Mk-II</a></li>
@@ -163,7 +182,7 @@
         <div class="upverter lang_python lang_js lang_c linux">
 		  <h2>Software Engineer - Upverter, Toronto, Ontario</h2>
 		  <h3>October 2012 - present</h3>
-		  <ul>            
+		  <ul>
             <li>Reverse-engineered OrCAD Capture and Cadence Allegro file formats for the purposes of importing 3rd-party designs into Upverter.</li>
             <li>Optimized frontend Javascript and HTML5 canvas performance within the tool, as well as client-server communication.</li>
             <li>Developed frontend and backend infrastructure for simulation of circuits built within Upverter.</li>
