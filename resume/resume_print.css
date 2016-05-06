@@ -1,0 +1,9 @@
+@import url('resume.css');
+
+body {
+    font-size: 60%;
+}
+#unfilter-button { display: none; }
+.note { display: none; }
+a:link { text-decoration: none; color: black }
+a:visited { text-decoration: none; color: black }
