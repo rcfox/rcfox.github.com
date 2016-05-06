@@ -1,13 +1,14 @@
 ---
-layout: post
 title: "Declarative Content Generation"
+teaser: carcassonne3.png
 category: project
 tags:
 - answer-set-programming
 - procedural-content-generation
 - games
+header:
+  teaser: carcassonne1.png
 ---
-{% include JB/setup %}
 
 Procedural content generation is getting more and more popular these days, and it's really quite interesting. Of course, I'm not one to be content with just following the crowd, so I've been experimenting in a slightly different direction:
 
@@ -56,5 +57,3 @@ And there you have it. Feel free to check out my code here:
 If you're interested in learning about the technology behind this, you can find a good starting point here:
 
 [http://eis-blog.ucsc.edu/2011/10/map-generation-speedrun/](http://eis-blog.ucsc.edu/2011/10/map-generation-speedrun/)
-
-(Note: This article was cross-posted to [Google+](https://plus.google.com/113431013843451438802/posts/SYucbhcMGy8).)

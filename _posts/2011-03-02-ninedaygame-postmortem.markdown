@@ -1,5 +1,4 @@
 ---
-layout: post
 title: NineDayGame - Postmortem
 category: project
 tags:

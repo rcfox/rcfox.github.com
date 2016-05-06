@@ -1,17 +1,19 @@
 ---
-layout: post
 title: NDS Homebrew
 category: project
 tags:
 - nintendo-ds
 - games
+header:
+  teaser: nds-pathfinder.png
 ---
-{% include JB/setup %}
+
 
 # Nintendo DS Homebrew #
 
 <div markdown="1" style="clear: both">
 <img src="/images/nds-pathfinder.png" style="float: right"/>
+
 ## Pathfinder ##
 
 Draw a maze, and have the pathfinder app find its way through!
@@ -24,6 +26,7 @@ Green shows a location that was considered in the pathfinding algorithm, and blu
 
 <div markdown="1" style="clear: both">
 <img src="/images/nds-polynomial.png" style="float: right"/>
+
 ## Polynomial Plotter ##
 Tap some points on the screen, and this Nintendo DS demo will draw a polynomial that goes through all of them.
 
@@ -33,6 +36,7 @@ Tap some points on the screen, and this Nintendo DS demo will draw a polynomial 
 
 <div markdown="1" style="clear: both">
 <img src="/images/nds-dollar.png" style="float: right"/>
+
 ## $1 Gesture Recognizer ##
 This is a demo of the [1$ Gesture Recognition algorithm](http://depts.washington.edu/aimgroup/proj/dollar/), written for the Nintendo DS.
 

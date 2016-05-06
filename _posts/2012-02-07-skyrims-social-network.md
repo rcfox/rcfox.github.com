@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Skyrim's Social Network"
 category: project
 tags:
@@ -8,7 +7,7 @@ tags:
 - games
 - not-finished
 ---
-{% include JB/setup %}
+
 
 The Skyrim Creation Kit was released today, so I decided to play with it a bit.
 

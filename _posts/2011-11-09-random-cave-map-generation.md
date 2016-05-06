@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "Random Cave Map Generation"
 category: project
 tags:
 - procedural-content-generation
 - haxe
 ---
-{% include JB/setup %}
+
 
 More map generation! This one's a bit more conventional:
 
@@ -31,5 +30,3 @@ The image I've attached is very colourful. Each colour indicates a new a disjoin
 Since this was also an experiment in learning [haXe](http://haxe.org/), I can provide a little Flash demo to look and refresh to generate a new map: [http://rcfox.ca/mapgen.swf?x=100&y=100](/mapgen.swf?x=100&y=100)
 
 I find that 300x300 looks more interesting, but 100x100 is more realistic in terms of likely map sizes.
-
-(Note: This article was cross-posted to [Google+](https://plus.google.com/113431013843451438802/posts/Wze6G1h95VF).)

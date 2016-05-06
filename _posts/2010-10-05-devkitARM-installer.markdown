@@ -1,5 +1,4 @@
 ---
-layout: post
 title: devkitARM Installer for Linux/OSX
 category: project
 tags:

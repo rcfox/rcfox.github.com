@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Launchpad Development Tools for Linux
 category: tutorial
 tags:
 - embedded-systems
 ---
 
-Texas Instruments has released the [LaunchPad](http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_(MSP-EXP430G2),
+Texas Instruments has released the [LaunchPad](http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_(MSP-EXP430G2)),
 a new open-source development board for the value line of the MSP430. The chips aren't very powerful, but at
 [$4.30](http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_%28MSP-EXP430G2%29#Quick_Links), it's hard to go wrong!
 
@@ -14,6 +13,7 @@ However, they do not give any official support for Linux development. There is a
 and little-to-no effort is needed to get it working with the LaunchPad.
 
 ## Getting Started ##
+
 ### GCC ###
 The [mspgcc4 project](http://mspgcc4.sourceforge.net) offers a GCC toolchain targeted at the MSP430.
 Compared to the (somehow much more visible) [mspgcc project](http://mspgcc.sourceforge.net/), it boasts better optimization, and
@@ -36,9 +36,11 @@ From the [installation instructions](http://mspdebug.sourceforge.net/download.ht
     sudo apt-get install libusb-dev libreadline-dev
     make
     sudo make install
+	
 (If you're not running Debian or Ubuntu, you'll need to get libusb and libreadline another way.)
 
 ## Programming the Board ##
+
 ### Temperature Demo ###
 The code written for the TI's Windows tools needs to be modified to build with GCC.
 

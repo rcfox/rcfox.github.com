@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Idea: Awk-style Parser for C"
 category: ideas
 tags:
@@ -7,7 +6,7 @@ tags:
 - parser
 - incomplete
 ---
-{% include JB/setup %}
+
 
 I recently learned about [gvpr][gvpr], which calls itself a "graph stream editor inspired by awk". It allows you to parse a [dot][dot] graph without having to worry about worrying about the grammar. For an example of how it might be used, see my [Springy Layout of Dot Graphs][springy] code, but the basics are:
 

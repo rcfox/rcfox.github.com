@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AI Aquariums
 category: project
 tags:
