@@ -4,8 +4,8 @@ category: project
 tags:
 - nintendo-ds
 - games
-header:
-  teaser: nds-pathfinder.png
+#header:
+#  teaser: nds-pathfinder.png
 ---
 
 

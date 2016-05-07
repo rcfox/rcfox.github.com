@@ -6,8 +6,8 @@ tags:
 - answer-set-programming
 - procedural-content-generation
 - games
-header:
-  teaser: carcassonne1.png
+#header:
+#  teaser: carcassonne1.png
 ---
 
 Procedural content generation is getting more and more popular these days, and it's really quite interesting. Of course, I'm not one to be content with just following the crowd, so I've been experimenting in a slightly different direction:

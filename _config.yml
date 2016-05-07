@@ -62,7 +62,7 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Ryan Fox"
-  avatar           : "bio-photo.jpg"
+  avatar           : "rsz_1ryanfox.jpg"
   bio              : "Computer Engineer"
   location         : "Toronto, Ontario"
   email            : "ryan@rcfox.ca"
@@ -213,7 +213,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: false
       related: true
