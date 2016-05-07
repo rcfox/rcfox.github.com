@@ -10,6 +10,9 @@ h3 {
 ul {
     margin-top: 0px
 }
+div.header ul {
+    padding: 0;
+}
 body {
     padding-right: 10%; padding-left: 10%; font-size: 12pt; font-family: sans-serif;
 }
