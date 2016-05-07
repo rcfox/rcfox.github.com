@@ -52,15 +52,13 @@ div#skills ul ul {
 p {
     text-indent: 2em;
 }
+div.coop {
+    display: none;
+}
 div.hide {
-	display: none;
+    display: none;
 }
-#unfilter-button {
-    position: fixed;
-    top: 1em;
-    left: 1em;
-	float: left;
-	display: none;
+section h1 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
-#unfilter-button a:link { color: red; }
-.note { font-size: 75%; }
