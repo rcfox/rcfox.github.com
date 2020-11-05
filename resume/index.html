@@ -1,10 +1,15 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
     <title>The Resume of Ryan Fox</title>
-    <meta charset="utf-8">
-    <link href="resume.css" rel="stylesheet" type="text/css">
-    <link href="resume_print.css" rel="stylesheet" type="text/css" media="print">
+    <meta charset="utf-8" />
+    <link href="resume.css" rel="stylesheet" type="text/css" />
+    <link
+      href="resume_print.css"
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+    />
   </head>
   <body>
     <div class="header">
@@ -15,106 +20,214 @@
           <li>~</li>
           <li><a href="http://rcfox.ca">http://rcfox.ca</a></li>
           <li>~</li>
-          <li><a href="https://github.com/rcfox">https://github.com/rcfox</a></li>
+          <li>
+            <a href="https://github.com/rcfox">https://github.com/rcfox</a>
+          </li>
         </ul>
       </div>
     </div>
     <div class="content">
-      <fieldset id="skills">
-        <legend>Summary of Skills</legend>
-        <ul>
-          <li>Programming Languages:
-            <ul>
-              <li>Primary: Python, JavaScript, C</li>
-              <li>Secondary: C++, Perl, C#</li>
-              <li>Interested: Rust, Scheme, Prolog</li>
-            </ul>
-          </li>
-          <li>Proficient with Linux, Git, Emacs</li>
-          <li>Familiar with Windows, Subversion, Perforce</li>
-        </ul>
-      </fieldset>
       <fieldset id="work">
         <legend>Work Experience</legend>
-        <div class="upverter lang_python lang_js lang_c linux">
-          <h2>Upverter - Senior Software Engineer, 2012 - 2018</h2>
+        <div class="altium lang_python lang_js lang_go linux">
+          <h2>
+            Octopart (Altium) - Senior Software Engineer III, 2019 - 2020
+          </h2>
           <ul>
-            <li>Developed automated electronic design tools using geometry and graph algorithms in Python and JavaScript.</li>
-            <li>Reverse-engineered other tools' file formats to allow users to migrate their data both into and out of the Upverter ecosystem.
+            <li>
+              Implemented a new backend API for both internal and third-party
+              access to Octopart's vast amounts of data using Go and GraphQL.
+            </li>
+            <li>
+              Seemlessly integrated data from partners' APIs to allow for
+              real-time updates to Octopart's dataset.
+            </li>
+            <li>
+              Set up infrastructure instrumentation for better monitoring and
+              analysis.
+            </li>
+            <li>
+              Mentored newly graduated engineers in software design and
+              idiomatic programming and infrastructure practices.
+            </li>
+          </ul>
+        </div>
+        <div class="upverter lang_python lang_js lang_c linux">
+          <h2>
+            Upverter (Altium from 2017) - Senior Software Engineer, 2012 - 2019
+          </h2>
+          <ul>
+            <li>
+              Developed automated electronic design tools using geometry and
+              graph algorithms in Python and JavaScript.
+            </li>
+            <li>
+              Reverse-engineered other tools' file formats to allow users to
+              migrate their data both into and out of the Upverter ecosystem.
               <ul>
-                <li>Approaches to extract data included: mapping out the binary format of files, exploiting diagnostic tools, automating user interfaces, and using built-in scripting languages.</li>
+                <li>
+                  Approaches to extract data included: mapping out the binary
+                  format of files, exploiting diagnostic tools, automating user
+                  interfaces, and using built-in scripting languages.
+                </li>
               </ul>
             </li>
-            <li>Extended and integrated ngspice (an electronics simulator) and ADMS (a Verilog-A transpiler) into Upverter to allow users to verify their designs.</li>
-            <li>Periodically profiled our code to find memory and run-time performance optimizations.
+            <li>
+              Extended and integrated ngspice (an electronics simulator) and
+              ADMS (a Verilog-A transpiler) into Upverter to allow users to
+              verify their designs.
+            </li>
+            <li>
+              Periodically profiled our code to find memory and run-time
+              performance optimizations.
               <ul>
-                <li>On a few occasions, I worked with the authors of third-party libraries to address performance issues in their code.</li>
+                <li>
+                  On a few occasions, I worked with the authors of third-party
+                  libraries to address performance issues in their code.
+                </li>
               </ul>
             </li>
-            <li>Assured code quality through rigorous code review and by annotating the JavaScript code base with static type checking directives.</li>
-            <li>Mentored more than 10 engineering student interns and 3 junior employees.</li>
-            <li>Contributed new features, bug fixes, and performance optimizations to open-source projects:
+            <li>
+              Assured code quality through rigorous code review and by
+              annotating the JavaScript code base with static type checking
+              directives.
+            </li>
+            <li>
+              Mentored more than 10 engineering student interns and 3 junior
+              employees.
+            </li>
+            <li>
+              Contributed new features, bug fixes, and performance optimizations
+              to open-source projects:
               <ul class="columns">
                 <li><a href="http://ngspice.sourceforge.net/">ngspice</a></li>
                 <li><a href="https://www.discourse.org/">Discourse</a></li>
-                <li><a href="https://github.com/google/closure-compiler">Google Closure Compiler</a></li>
-                <li><a href="https://github.com/r3mi/poly2tri.js">poly2tri.js</a></li>
-                <li><a href="https://github.com/digidotcom/python-suitcase">python-suitcase</a></li>
+                <li>
+                  <a href="https://github.com/google/closure-compiler"
+                    >Google Closure Compiler</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/r3mi/poly2tri.js">poly2tri.js</a>
+                </li>
+                <li>
+                  <a href="https://github.com/digidotcom/python-suitcase"
+                    >python-suitcase</a
+                  >
+                </li>
                 <li><a href="https://poppler.freedesktop.org/">Poppler</a></li>
               </ul>
+            </li>
+            <li>
+              Produced thorough documentation and training on Upverter's
+              internal design after its acquistion by Altium in 2017.
+            </li>
           </ul>
         </div>
         <div class="rim osgroup lang_c qnx linux">
           <h2>Research in Motion - Embedded Software Developer, 2010 - 2012</h2>
           <ul>
-            <li>Optimized audio-hardware drivers for power consumption and audio quality.</li>
-            <li>Created analysis tools to find potential memory optimizations in a memory-constrained DSP, enabling advanced features which had been previously deemed impossible to fit into memory.</li>
-	    <li>Prototyped the implementation of new features for future versions of the operating system.</li>
-            <li>Created scripts to automatically generate C code for use in the build process.</li>
+            <li>
+              Optimized QNX audio hardware drivers written in C for power
+              consumption and audio quality.
+            </li>
+            <li>
+              Created analysis tools to find potential memory optimizations in a
+              memory-constrained DSP, enabling advanced features which had been
+              previously deemed impossible to fit into memory.
+            </li>
+            <li>
+              Created scripts to automatically generate C code for use in the
+              build process.
+            </li>
           </ul>
         </div>
-	<div class="uwaterloo uav coop qnx lang_c linux">
-	  <h2>University of Waterloo - UAV Research Assistant, 2010</h2>
-	  <ul>
-	    <li>Configured and compiled QNX and Linux kernels for PowerPC soft-cores synthesized on a Xilinx FPGA.</li>
-	    <li>Researched and conducted experiments with high-speed, Gigabit Ethernet cameras.</li>
-	    <li>Integrated the computer and camera systems into a remote-controlled air plane.</li>
-	  </ul>
-	</div>
-	<div class="gd ese coop lang_perl mentor linux">
-	  <h2>General Dynamics Canada - Electronic Specialty Engineering, 2009</h2>
-	  <ul>
-	    <li>Maintained design schematics using Mentor Graphics' Design Architect.</li>
-	    <li>Automated several lengthy tasks using Excel macros, AMPLE and Perl scripts, reducing completion time from 8+ hours to around 30 seconds.</li>
-	    <li>Recreated a prototype design which was originally developed in non-company-standard tools.</li>
-	  </ul>
-	</div>
-	<div class="rim concept coop mentor linux">
-	  <h2>Research in Motion - Conceptual Hardware Designer, 2008</h2>
-	  <ul>
-	    <li>Designed and updated circuit schematics using Mentor Graphics' Design Architect.</li>
-	    <li>Laid out printed circuit boards of conceptual BlackBerry devices using Mentor Graphics Board Station.</li>
-	    <li>Researched and obtained new components for the conceptual devices, through vendor contacts and data sheets.</li>
-	    <li>Assembled and debugged test boards and devices.</li>
-	  </ul>
-	</div>
-	<div class="rim engswtools coop lang_cpp lang_cs windows">
-	  <h2>Research in Motion - Software Tools Developer, 2006 - 2007</h2>
-	  <ul>
-	    <li>Implemented a library in C# to ensure the integrity of calibration files and tests to be used in the manufacturing process.</li>
-	    <li>Created a program to parse C++ structure hierarchies and generate C++ code to produce trees representing the hierarchies.</li>
-	    <li>Designed an easily extensible library to parse data and graph the desired values, which could be called from many existing tools to give a visual representation of their output.</li>
-	    <li>Rewrote the core functionality of a multi-threaded C++ program, which is used to interact with BlackBerry devices.</li>
-	    <li>Extended and maintained engineering applications used throughout the company.</li>
-	  </ul>
-	</div>
+        <div class="uwaterloo uav coop qnx lang_c linux">
+          <h2>University of Waterloo - UAV Research Assistant Co-Op, 2010</h2>
+          <ul>
+            <li>
+              Configured and compiled QNX for PowerPC soft-cores synthesized on
+              a Xilinx FPGA.
+            </li>
+            <li>
+              Researched and conducted experiments with high-speed, Gigabit
+              Ethernet cameras.
+            </li>
+            <li>
+              Integrated the computer and camera systems into a
+              remote-controlled air plane.
+            </li>
+            <li>
+              Developed firmware in C to read from an infrared sensor and relay
+              the data to the main computer.
+            </li>
+          </ul>
+        </div>
+        <div class="gd ese coop lang_perl mentor linux">
+          <h2>
+            General Dynamics Canada - Electronic Specialty Engineering Co-Op,
+            2009
+          </h2>
+          <ul>
+            <li>
+              Maintained design schematics using Mentor Graphics' Design
+              Architect.
+            </li>
+            <li>
+              Automated several lengthy tasks using Excel macros, AMPLE and Perl
+              scripts, reducing completion time from 8+ hours to around 30
+              seconds.
+            </li>
+          </ul>
+        </div>
+        <div class="rim concept coop mentor linux">
+          <h2>Research in Motion - Conceptual Hardware Designer Co-Op, 2008</h2>
+          <ul>
+            <li>
+              Drew schematics and circuit boards for new BlackBerry prototypes
+              using Mentor Graphics Design Architect and Board Station.
+            </li>
+            <li>
+              Selected parts and designed a power supply for a LCD backlight.
+            </li>
+          </ul>
+        </div>
+        <div class="rim engswtools coop lang_cpp lang_cs windows">
+          <h2>
+            Research in Motion - Software Tools Developer Co-Op, 2006 - 2007
+          </h2>
+          <ul>
+            <li>
+              Wrote and maintained a multi-threaded tool in C++ to load signed
+              code onto several BlackBerry devices simultaneously during
+              manufacturing.
+            </li>
+            <li>
+              Created C# libraries for use in manufacturing testting procedures
+              and internal operating system development.
+            </li>
+            <li>
+              Created a program to parse C++ structure hierarchies and generate
+              C++ code to produce trees representing the hierarchies.
+            </li>
+          </ul>
+        </div>
         <div class="wired_on_caffeine">
           <h2>Wired on Caffeine - Co-Founder, 2003</h2>
           <ul>
             <li>Founded and managed all aspects of an internet cafe.</li>
-            <li>Assembled three computer terminals for public use on a high-speed Internet connection.</li>
-            <li>Designed and developed a program in Visual Basic to track sales, calculate change due and record tax information.</li>
-            <li>Conducted sales, assisted with technical problems and interacted with customers.</li>
+            <li>
+              Assembled three computer terminals for public use on a high-speed
+              Internet connection.
+            </li>
+            <li>
+              Designed and developed a program in Visual Basic to track sales,
+              calculate change due and record tax information.
+            </li>
+            <li>
+              Conducted sales, assisted with technical problems and interacted
+              with customers.
+            </li>
           </ul>
         </div>
       </fieldset>
@@ -123,73 +236,148 @@
         <div class="uwaterloo">
           <h2>University of Waterloo</h2>
           <ul>
-            <li>Bachelor of Applied Science -- Honours Computer Engineering, Class of 2011</li>
+            <li>
+              Bachelor of Applied Science -- Honours Computer Engineering, Class
+              of 2011
+            </li>
           </ul>
         </div>
       </fieldset>
       <fieldset id="projects">
         <legend>Projects</legend>
-        <div class="lang_python">
+        <div class="lang_python hide">
           <h2>Warframe API Python Library</h2>
           <ul>
-            <li>By reverse-engineering the Warframe mobile app, I was able to make a library to interact with the game's internal API.</li>
-            <li>The library doesn't facilitate cheating, but it can be used to view hidden data about your account, and can allow automation of some tedious tasks in the game.</li>
-            <li>Source: <a href="https://github.com/cephalon-sofis/warframe_api">https://github.com/cephalon-sofis/warframe_api</a>
+            <li>
+              By reverse-engineering the Warframe mobile app, I was able to make
+              a library to interact with the game's internal API.
+            </li>
+            <li>
+              The library doesn't facilitate cheating, but it can be used to
+              view hidden data about your account, and can allow automation of
+              some tedious tasks in the game.
+            </li>
+            <li>
+              Source:
+              <a href="https://github.com/cephalon-sofis/warframe_api"
+                >https://github.com/cephalon-sofis/warframe_api</a
+              >
               <ul>
-                <li>(A new GitHub account was created for this project so that it wouldn't be directly associated with my in-game account.)</li>
+                <li>
+                  (A new GitHub account was created for this project so that it
+                  wouldn't be directly associated with my in-game account.)
+                </li>
               </ul>
             </li>
           </ul>
         </div>
-        <div class="lang_js">
+        <div class="lang_js hide">
           <h2>Power Metal Ranker</h2>
           <ul>
-            <li>Two songs are presented, the user selects which they like better. The results are stored in order, and two more results are shown.</li>
-            <li>As the list grows, songs from within the list are strategically chosen to minimize the number of comparisons in order to place new songs in their correct positions.</li>
-            <li>New songs to insert are drawn from submissions to the <a href="http://www.reddit.com/r/powermetal">/r/PowerMetal</a> subreddit.</li>
-            <li>Source: <a href="https://github.com/rcfox/Power-Metal-Ranker">https://github.com/rcfox/Power-Metal-Ranker</a></li>
-            <li>Demo: <a href="http://rcfox.ca/Power-Metal-Ranker/">http://rcfox.ca/Power-Metal-Ranker/</a></li>
+            <li>
+              Two songs are presented, the user selects which they like better.
+              The results are stored in order, and two more results are shown.
+            </li>
+            <li>
+              As the list grows, songs from within the list are strategically
+              chosen to minimize the number of comparisons in order to place new
+              songs in their correct positions.
+            </li>
+            <li>
+              New songs to insert are drawn from submissions to the
+              <a href="http://www.reddit.com/r/powermetal">/r/PowerMetal</a>
+              subreddit.
+            </li>
+            <li>
+              Source:
+              <a href="https://github.com/rcfox/Power-Metal-Ranker"
+                >https://github.com/rcfox/Power-Metal-Ranker</a
+              >
+            </li>
+            <li>
+              Demo:
+              <a href="http://rcfox.ca/Power-Metal-Ranker/"
+                >http://rcfox.ca/Power-Metal-Ranker/</a
+              >
+            </li>
           </ul>
         </div>
         <div class="upverter lang_c">
           <h2>ngspice / ADMS</h2>
           <ul>
-            <li>Open-source tool for transpiling analog circuit designs written in Verilog-A into C code.</li>
-            <li>The C code is compiled and linked into ngspice, which can then simulate the circuit as if it were a native component.</li>
-	    <li>Source: <a href="https://github.com/upverter/ADMS/tree/upverter">https://github.com/upverter/ADMS/tree/upverter</a></li>
-	  </ul>
-	</div>
-	<div class="ai aquarium lang_c lang_perl lang_scheme">
-	  <h2>AI Aquarium</h2>
-	  <ul>
-	    <li>The idea behind this project is to create a world, drop in some artificially intelligent agents, and then watch them build a town, start an economy, and raid dungeons.</li>
-            <li>Smaller experiments in world exploration, gathering and large battles were conducted in Perl.
-            <li>A larger experiment involving collecting things to build complex items was started in C, but switched to Guile Scheme.
-            <li>Demos: <a href="http://rcfox.ca/ai-aquariums/">http://rcfox.ca/ai-aquariums/</a></li>
-	  </ul>
-	</div>
-	<div class="ninedaygame lang_cpp linux hide">
-	  <h2>NineDayGame</h2>
-	  <ul>
-	    <li>Nine-day joint effort between me and my friend Alex Williams.</li>
-	    <li>To allow concurrent development, game was split into two parts:
-	      <ul>
-		<li>Alex worked on the 3D graphics side, using OpenGL.</li>
-		<li>I worked on the backend, defining the mechanics of the game.</li>
-	      </ul>
-	    </li>
-	    <li>Source: <a href="https://github.com/NineDayGame/NineDayGame">https://github.com/NineDayGame/NineDayGame</a></li>
-	    <li>Demo: <a href="http://www.youtube.com/playlist?list=PL514EB1545CFC7371">http://www.youtube.com/playlist?list=PL514EB1545CFC7371</a></li>
-	  </ul>
-	</div>
-	<div class="fydp lang_c linux">
-	  <h2>Application-Specific Processor Instruction Set Extensions</h2>
-	  <ul>
-	    <li>Automatic system for finding processor instruction set optimizations, tailored to a specific application.</li>
-	    <li>Targeted the ARM7 architecture.</li>
-	    <li>In our example case of an edge-detection program, our system found a new instruction that increased performance by 10% in simulations.</li>
-	  </ul>
-	</div>
+            <li>
+              Open-source tool for transpiling analog circuit designs written in
+              Verilog-A into C code.
+            </li>
+            <li>
+              The C code is compiled and linked into ngspice, which can then
+              simulate the circuit as if it were a native component.
+            </li>
+            <li>
+              Source:
+              <a href="https://github.com/upverter/ADMS/tree/upverter"
+                >https://github.com/upverter/ADMS/tree/upverter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="ai aquarium lang_c lang_perl lang_scheme">
+          <h2>AI Aquarium</h2>
+          <ul>
+            <li>
+              Experiments in writing goal-oriented aritifical intelligence for
+              characters in a video game world.
+            </li>
+            <li>
+              AI tasks involved world exploration, resource gathering, and
+              battles.
+            </li>
+            <li>Written in Perl, C, and Scheme.</li>
+            <li>
+              Demos:
+              <a href="http://rcfox.ca/ai-aquariums/"
+                >http://rcfox.ca/ai-aquariums/</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="ninedaygame lang_cpp linux">
+          <h2>NineDayGame</h2>
+          <ul>
+            <li>
+              Nine-day joint effort with a friend to create a 3D roguelike game
+              using C++ and OpenGL.
+            </li>
+            <li>
+              Features a turn scheduler with non-uniform action costs, and a
+              domain-specific language for designing in-game combat abilities.
+            </li>
+            <li>
+              Source:
+              <a href="https://github.com/NineDayGame/NineDayGame"
+                >https://github.com/NineDayGame/NineDayGame</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="fydp lang_c linux">
+          <h2>Application-Specific Processor Instruction Set Extensions</h2>
+          <ul>
+            <li>
+              Created a system to dynamically analyze programs running in an
+              ARM7 simulator to find common patterns of instructions executed.
+            </li>
+            <li>
+              Based on a the results, new instructions could be added to the
+              simulator to batch the common instruction patterns into a single
+              instruction.
+            </li>
+            <li>
+              In our target case of an edge-detection program, our system found
+              a new instruction that increased performance by 10%.
+            </li>
+          </ul>
+        </div>
       </fieldset>
     </div>
   </body>
