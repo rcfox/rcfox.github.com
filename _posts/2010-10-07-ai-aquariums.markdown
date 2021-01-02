@@ -19,7 +19,7 @@ World Features:
 <tr><td>Cyan  </td><td>Glass   </td><td>Yes  </td><td>Yes        </td></tr>
 </table>
 
-<iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/oYhccD20icQ" frameborder="0">&nbsp;</iframe>
+<iframe title="YouTube video player" width="480" height="390" src="https://www.youtube.com/embed/oYhccD20icQ" frameborder="0">&nbsp;</iframe>
 
 # Goal-based AI #
 
@@ -33,12 +33,12 @@ In this scenario, there are red bad guys and blue good guys. They each have the 
 
 Just for fun, the good guys gain levels as they kill, which makes them more powerful. This helps to offset the advantage that the bad guys get, since there are so many of them.
 
-<iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/0HzK-yhYinc" frameborder="0" >&nbsp;</iframe>
+<iframe title="YouTube video player" width="480" height="390" src="https://www.youtube.com/embed/0HzK-yhYinc" frameborder="0" >&nbsp;</iframe>
 
 ## Gathering ##
 
 This time, the red spots are items that the blue guys gather and then bring to the upper-left corner of the world. There are two different versions. In the first version, everyone goes for the closest item that they see. In the second version, the AIs will "call dibs" on an item so that the others will not target it, which leads to more efficient gathering.
 
-<iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/_U05ccQ5lsA" frameborder="0" >&nbsp;</iframe>
+<iframe title="YouTube video player" width="480" height="390" src="https://www.youtube.com/embed/_U05ccQ5lsA" frameborder="0" >&nbsp;</iframe>
 
-<iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/ku6fDRV-OGs" frameborder="0" >&nbsp;</iframe>
+<iframe title="YouTube video player" width="480" height="390" src="https://www.youtube.com/embed/ku6fDRV-OGs" frameborder="0" >&nbsp;</iframe>

@@ -56,4 +56,4 @@ And there you have it. Feel free to check out my code here:
 
 If you're interested in learning about the technology behind this, you can find a good starting point here:
 
-[http://eis-blog.ucsc.edu/2011/10/map-generation-speedrun/](http://eis-blog.ucsc.edu/2011/10/map-generation-speedrun/)
+[https://eis-blog.ucsc.edu/2011/10/map-generation-speedrun/](https://eis-blog.ucsc.edu/2011/10/map-generation-speedrun/)

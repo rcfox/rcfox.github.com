@@ -27,6 +27,6 @@ Since dungeons in games are generally composed of several (or infinitely many) f
 
 The image I've attached is very colourful. Each colour indicates a new a disjoint area of the map. This is really more to confirm that I can find the disjoint areas, but it also make for an interesting visual.
 
-Since this was also an experiment in learning [haXe](http://haxe.org/), I can provide a little Flash demo to look and refresh to generate a new map: [http://rcfox.ca/mapgen.swf?x=100&y=100](/mapgen.swf?x=100&y=100)
+Since this was also an experiment in learning [haXe](https://haxe.org/), I can provide a little Flash demo to look and refresh to generate a new map: [https://rcfox.ca/mapgen.swf?x=100&y=100](/mapgen.swf?x=100&y=100)
 
 I find that 300x300 looks more interesting, but 100x100 is more realistic in terms of likely map sizes.

@@ -43,7 +43,7 @@ Another common desire is to stringify enum values. You could do something like t
   * C would be the most natural
   * It'll probably end up being Perl :)
     
-[gvpr]: http://linux.die.net/man/1/gvpr
-[dot]: http://www.graphviz.org/
+[gvpr]: https://linux.die.net/man/1/gvpr
+[dot]: https://www.graphviz.org/
 [springy]: https://github.com/rcfox/SpringyJS-Layout-of-Dot-Graphs/blob/master/springy.gv
 [clang]: https://github.com/loarabia/Clang-tutorial/wiki/TutorialOrig
