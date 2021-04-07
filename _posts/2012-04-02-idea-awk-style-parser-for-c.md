@@ -1,6 +1,7 @@
 ---
 title: "Idea: Awk-style Parser for C"
 category: ideas
+published: false
 tags:
 - c
 - parser
