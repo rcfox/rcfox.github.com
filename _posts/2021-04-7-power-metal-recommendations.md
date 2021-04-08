@@ -6,7 +6,7 @@ tags: [powermetal]
 
 # What is Power Metal?
 
-Many people assume that all metal music is screaming, harse, scary, Satanic music. That's not so!
+Many people assume that all metal music is screaming, harsh, scary, Satanic music. That's not so!
 
 Power metal emphasizes clear vocals and generally lighter, uplifting sound. It's often described as "theatrical" or "dramatic".
 
