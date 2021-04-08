@@ -24,6 +24,8 @@ Currently (2021) my favourite band. They're also Canadian! They sometimes incorp
 
 ## Northwest Passage
 
+This is a cover of a [Stan Rogers song](https://www.youtube.com/watch?v=xMRpYtAhGAo), but they've definitely made it their own.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XRD3vrSLPaw" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Brothers of Metal
