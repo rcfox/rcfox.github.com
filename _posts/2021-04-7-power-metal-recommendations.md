@@ -6,6 +6,10 @@ tags: [powermetal]
 
 # What is Power Metal?
 
+Many people assume that all metal music is screaming, harse, scary, Satanic music. That's not so!
+
+Power metal emphasizes clear vocals and generally lighter, uplifting sound. It's often described as "theatrical" or "dramatic".
+
 # Unleash The Archers
 
 Currently (2021) my favourite band. They're also Canadian! They sometimes incorporate growls, but not so much as to lean into death metal territory.
@@ -14,9 +18,9 @@ Currently (2021) my favourite band. They're also Canadian! They sometimes incorp
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gqUPGa15Oto" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## General of the Dark Army
+## Tonight We Ride
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WVi0d7oqDvs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UOvZKJlrtk8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Northwest Passage
 
@@ -158,7 +162,5 @@ This is actually a cover of a [Sabaton song](https://www.youtube.com/watch?v=0LS
 ## Glint
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7j0oE6RiWng" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 
