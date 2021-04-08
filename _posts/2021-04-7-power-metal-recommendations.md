@@ -165,4 +165,13 @@ This is actually a cover of a [Sabaton song](https://www.youtube.com/watch?v=0LS
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7j0oE6RiWng" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+# Falconer
+
+## Northwind
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Kz_Kk8pO1KM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Lament Of A Minstrel
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nWfQ_L0E4aw" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
